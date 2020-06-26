@@ -1,0 +1,11 @@
+C:\Users\jerry.lin52\Documents\Visual Studio 2017\projects\TennisKata\TennisKata\bin\Debug\netcoreapp2.2\TennisKata.deps.json
+C:\Users\jerry.lin52\Documents\Visual Studio 2017\projects\TennisKata\TennisKata\bin\Debug\netcoreapp2.2\TennisKata.runtimeconfig.json
+C:\Users\jerry.lin52\Documents\Visual Studio 2017\projects\TennisKata\TennisKata\bin\Debug\netcoreapp2.2\TennisKata.runtimeconfig.dev.json
+C:\Users\jerry.lin52\Documents\Visual Studio 2017\projects\TennisKata\TennisKata\bin\Debug\netcoreapp2.2\TennisKata.dll
+C:\Users\jerry.lin52\Documents\Visual Studio 2017\projects\TennisKata\TennisKata\bin\Debug\netcoreapp2.2\TennisKata.pdb
+C:\Users\jerry.lin52\Documents\Visual Studio 2017\projects\TennisKata\TennisKata\obj\Debug\netcoreapp2.2\TennisKata.csprojAssemblyReference.cache
+C:\Users\jerry.lin52\Documents\Visual Studio 2017\projects\TennisKata\TennisKata\obj\Debug\netcoreapp2.2\TennisKata.csproj.CoreCompileInputs.cache
+C:\Users\jerry.lin52\Documents\Visual Studio 2017\projects\TennisKata\TennisKata\obj\Debug\netcoreapp2.2\TennisKata.AssemblyInfoInputs.cache
+C:\Users\jerry.lin52\Documents\Visual Studio 2017\projects\TennisKata\TennisKata\obj\Debug\netcoreapp2.2\TennisKata.AssemblyInfo.cs
+C:\Users\jerry.lin52\Documents\Visual Studio 2017\projects\TennisKata\TennisKata\obj\Debug\netcoreapp2.2\TennisKata.dll
+C:\Users\jerry.lin52\Documents\Visual Studio 2017\projects\TennisKata\TennisKata\obj\Debug\netcoreapp2.2\TennisKata.pdb
