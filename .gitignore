@@ -26,3 +26,13 @@ OrderStringNumber/TestOrderString/obj/Debug/netcoreapp2.2/
 *.targets
 
 *.csproj
+
+OrderStringWithNumber/.vs/OrderStringWithNumber/v15/.suo
+
+OrderStringWithNumber/.vs/OrderStringWithNumber/v15/Server/sqlite3/db.lock
+
+*.ide
+
+*.ide-shm
+
+*.ide-wal
