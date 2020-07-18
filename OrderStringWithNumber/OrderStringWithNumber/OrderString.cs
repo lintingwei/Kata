@@ -13,7 +13,7 @@ namespace OrderStringWithNumber
                 return string.Empty;
             }
 
-            return string.Empty;
+            return words;
         }
     }
 }

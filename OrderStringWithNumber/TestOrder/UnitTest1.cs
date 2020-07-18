@@ -16,5 +16,11 @@ namespace Tests
             OrderString orderString = new OrderString();
             Assert.AreEqual(orderString.Order(words), answer);
         }
+        [TestCase("w1", "w1")]
+        public void TestOneWords(string words, string answer)
+        {
+            OrderString orderString = new OrderString();
+            Assert.AreEqual(orderString.Order(words), answer);
+        }
     }
 }
