@@ -8,7 +8,12 @@ namespace OrderStringWithNumber
     {
         public string Order(string words)
         {
-            return null;
+            if (string.IsNullOrEmpty(words))
+            {
+                return string.Empty;
+            }
+
+            return string.Empty;
         }
     }
 }

@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using OrderStringWithNumber;
 
 namespace Tests
 {
@@ -9,10 +10,11 @@ namespace Tests
         {
         }
 
-        [Test]
-        public void Test1()
+        [TestCase("", "")]
+        public void TestStringEmpty(string words, string answer)
         {
-            Assert.Pass();
+            OrderString orderString = new OrderString();
+            Assert.AreEqual(orderString.Order(words), answer);
         }
     }
 }
