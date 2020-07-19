@@ -1,15 +1,10 @@
 using NUnit.Framework;
 using OrderStringWithNumber;
 
-namespace Tests
+namespace TestOrder
 {
     public class Tests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
         [TestCase("", "")]
         public void TestStringEmpty(string words, string answer)
         {
@@ -27,6 +22,11 @@ namespace Tests
         }
         [TestCase("is2 Thi1s T4est 3a", "Thi1s is2 3a T4est")]
         public void TestFourWords(string words, string answer)
+        {
+            TestWithWordsAndAnswer(words, answer);
+        }
+        [TestCase("4of Fo1r pe6ople g3ood th5e the2", "Fo1r the2 g3ood 4of th5e pe6ople")]
+        public void TestSixWords(string words, string answer)
         {
             TestWithWordsAndAnswer(words, answer);
         }
