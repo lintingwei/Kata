@@ -18,7 +18,7 @@ namespace OrderStringWithNumber
 
             Sorting(target, sorted);
 
-            return GenerateAnswer(sorted);
+            return GenerateSortedString(sorted);
         }
 
         private void Sorting(string[] target, string[] sorted)
@@ -29,15 +29,15 @@ namespace OrderStringWithNumber
             }
         }
 
-        private string GenerateAnswer(string[] sorted)
+        private string GenerateSortedString(string[] sorted)
         {
-            string answer = string.Empty;
+            string sortedString = string.Empty;
             foreach (string word in sorted)
             {
-                answer = $"{answer} {word}";
+                sortedString = $"{sortedString} {word}";
             }
 
-            return answer.Trim();
+            return sortedString.Trim();
         }
 
         private int GetPositionIndex(string targetString)
