@@ -22,5 +22,11 @@ namespace Tests
             OrderString orderString = new OrderString();
             Assert.AreEqual(orderString.Order(words), answer);
         }
+        [TestCase("is2 Thi1s", "Thi1s is2")]
+        public void TestTwoWords(string words, string answer)
+        {
+            OrderString orderString = new OrderString();
+            Assert.AreEqual(orderString.Order(words), answer);
+        }
     }
 }

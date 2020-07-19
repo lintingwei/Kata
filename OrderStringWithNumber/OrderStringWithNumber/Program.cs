@@ -6,7 +6,8 @@ namespace OrderStringWithNumber
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            OrderString orderString = new OrderString();
+            orderString.Order("w1");
         }
     }
 }
