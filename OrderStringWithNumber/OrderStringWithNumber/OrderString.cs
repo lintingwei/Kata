@@ -43,11 +43,11 @@ namespace OrderStringWithNumber
         private int GetPositionIndex(string targetString)
         {
             char[] singleWords = targetString.ToCharArray();
-            foreach (char word in singleWords)
+            foreach (char singleWord in singleWords)
             {
-                if (int.TryParse(word.ToString(), out int number))
+                if (int.TryParse(singleWord.ToString(), out int numberInSingleWords))
                 {
-                    return number - 1;
+                    return numberInSingleWords - 1;
                 }
             }
 
