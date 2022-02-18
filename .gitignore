@@ -36,3 +36,5 @@ OrderStringWithNumber/.vs/OrderStringWithNumber/v15/Server/sqlite3/db.lock
 *.ide-shm
 
 *.ide-wal
+
+TDD_Tennis/.vs/TDD_Tennis/v16/.suo

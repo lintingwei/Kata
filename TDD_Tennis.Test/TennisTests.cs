@@ -23,10 +23,9 @@ namespace TDD_Tennis.Test
         [Test]
         public void Test_FifteenLove()
         {
-            var result = _tennis.GetScore(1, 1);
+            var result = _tennis.GetScore(1, 0);
 
             Assert.AreEqual(_tennis.FifteenLove, result);
-
         }
     }
 }
