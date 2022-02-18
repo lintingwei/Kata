@@ -15,17 +15,28 @@ namespace TDD_Tennis.Test
         [Test]
         public void Test_LoveAll()
         {
-            var result = _tennis.GetScore(0, 0);
+            var result = GetScore(0, 0);
 
-            Assert.AreEqual(_tennis.LoveAll, result);
+            ShouldEqual(_tennis.LoveAll, result);
+        }
+
+        private string GetScore(int score1, int score2)
+        {
+            var result = _tennis.GetScore(score1, score2);
+            return result;
         }
 
         [Test]
         public void Test_FifteenLove()
         {
-            var result = _tennis.GetScore(1, 0);
+            var result = GetScore(1, 0);
 
-            Assert.AreEqual(_tennis.FifteenLove, result);
+            ShouldEqual(_tennis.FifteenLove, result);
+        }
+
+        private void ShouldEqual(string tennisFifteenLove, string result)
+        {
+            Assert.AreEqual(tennisFifteenLove, result);
         }
     }
 }
