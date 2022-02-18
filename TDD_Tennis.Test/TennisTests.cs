@@ -4,20 +4,29 @@ namespace TDD_Tennis.Test
 {
     public class TennisTest
     {
+        private Tennis _tennis;
+
         [SetUp]
         public void Setup()
         {
+            _tennis = new Tennis();
         }
 
         [Test]
         public void Test_LoveAll()
         {
-            var tennis = new Tennis();
+            var result = _tennis.GetScore(0, 0);
 
-            var result = tennis.GetScore(0,0);
-
-            Assert.AreEqual("Love All", result);
+            Assert.AreEqual(_tennis.LoveAll, result);
         }
 
+        [Test]
+        public void Test_FifteenLove()
+        {
+            var result = _tennis.GetScore(1, 1);
+
+            Assert.AreEqual(_tennis.FifteenLove, result);
+
+        }
     }
 }
